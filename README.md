@@ -17,11 +17,12 @@ Creado con React, Vite y Firebase.
 
 ## ⚙️ Instalación y ejecución
 
-### 1. Cloná este repositorio:
+1. Cloná este repositorio:
 ```bash
 git clone https://github.com/julisr/ecommerce.git
 
 bash
+
 
 2. Instalar dependencias
 
