@@ -1,0 +1,20 @@
+.contenedor-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.home-titulo {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: italic;
+}
+
+
+.home-p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+}
