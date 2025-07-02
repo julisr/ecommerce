@@ -21,14 +21,14 @@ Creado con React, Vite y Firebase.
 ```bash
 git clone https://github.com/julisr/ecommerce.git
 
-bash
 
+```
 
 2. Instalar dependencias
 
 npm install
 
-bash
+```
 
 3. Ejecutar el proyecto en entorno de desarrollo
 
