@@ -27,12 +27,13 @@ git clone https://github.com/julisr/ecommerce.git
 
 ```
 npm install
-
 ```
-
 
 3. Ejecutá el proyecto en entorno de desarrollo:
 
 ```
 npm run dev
 ```
+## 💾 Deployment
+
+➡️ [Ver el proyecto online](https://ecommerce-one-iota-45.vercel.app/)
