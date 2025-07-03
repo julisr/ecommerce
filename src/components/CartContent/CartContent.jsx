@@ -1,9 +1,8 @@
 import {useContext } from "react"
 import { Context } from "../../Context/Context"
-
-
 import CartElements from "./CartElements"
 import CartTotal from "./CartTotal"
+
 
 import './CartElements.css'
 

@@ -24,3 +24,9 @@
     text-align: center;
     margin-top: 40px;
   }
+
+  .disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+}

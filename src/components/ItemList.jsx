@@ -40,7 +40,7 @@ function Item({ id, title, price, image }) {
   const product = { id, title, price, image };
 
   const handleBuy = (e) => {
-    e.preventDefault(); // ✔️ Evita que el Link redirija cuando hacés clic en el botón
+    e.preventDefault(); 
     buyProducts(product);
   };
 
