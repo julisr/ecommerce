@@ -1,5 +1,6 @@
 import { toast } from 'react-toastify';
 import { useCart } from "./CartContext/CartContext";
+import '.components/CartContent/CartElements.css'; 
 
 const Cart = () => {
   const { carrito, actualizarCantidad, eliminarDelCarrito } = useCart();
@@ -81,9 +82,8 @@ const Cart = () => {
 
                   <button
                     className="delete-btn"
-                    onClick={() => eliminarDelCarrito(item.id)}
-                  >
-                    <i className="fas fa-trash"></i>
+                    onClick={() => eliminarDelCarrito(item.id)} >
+                    
                   </button>
                 </li>
               );

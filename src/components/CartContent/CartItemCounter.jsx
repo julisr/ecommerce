@@ -23,7 +23,7 @@ const CartItemCounter = ({ product }) => {
       <p className="cart-counter" onClick={decrese}>-</p>
       <p>{product.quanty}</p>
      <p
-  className={`cart-countern ${product.quanty >= 5 ? "disabled" : ""}`}
+  className={`cart-counter ${product.quanty >= 5 ? "disabled" : ""}`}
   onClick={() => buyProducts(product, false)} 
 >
   +
