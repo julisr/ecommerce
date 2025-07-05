@@ -9,8 +9,6 @@ import CartContent from './components/CartContent/CartContent.jsx';
 import { ContextProvider } from './Context/Context.jsx';
 import SubirProductos from './SubirProductos.jsx';
 
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 
 
 function App() {
@@ -30,7 +28,7 @@ function App() {
         <Route path='/*' element={<Error/>}/>
          <Route path='/carrito' element={<CartContent/>}/>
        <Route path="/subir" element={<SubirProductos />} />
-      <ToastContainer />
+      
         
       </Route>
 

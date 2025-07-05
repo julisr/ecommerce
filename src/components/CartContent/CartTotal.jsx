@@ -8,7 +8,11 @@ const CartTotal = () => {
   return (
     <div className="cart-total">
         <h3>total a pagar: {total}</h3>
+        <button>Pagar</button>
     </div>
+
+   
+
   )
 }
 
